@@ -38,4 +38,9 @@ j = open('Files/c10.txt')
 c10 = [line.strip() for line in open('Files/c10.txt')]
 j.close()
 
-
+print "Hi, add a number" 
+num1 = int(raw_input())
+print "Hi, add another number"
+num2 = int(raw_input())
+num3 = num1 + num2
+print num1 + num2
