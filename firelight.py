@@ -120,10 +120,10 @@ s8p = int(raw_input())
 c8[1] = s8p
 c8[2] = int(c8[2]) + int(c8[1])
 
-k = open('Files/c1.txt', 'w')
-k.write(str(c1[0]) + '\n')
-k.write(str(c1[1]) + '\n')
-k.write(str(c1[2]) + '\n')
+k = open('Files/c8.txt', 'w')
+k.write(str(c8[0]) + '\n')
+k.write(str(c8[1]) + '\n')
+k.write(str(c8[2]) + '\n')
 k.close()
 
 print "Please enter the points given to Song 9: " + c9[0]
@@ -147,3 +147,118 @@ k.write(str(c10[0]) + '\n')
 k.write(str(c10[1]) + '\n')
 k.write(str(c10[2]) + '\n')
 k.close()
+
+def schose(snum):
+    print "Please enter the number of the song that placed: " + str(snum)
+    sval = int(raw_input())
+    if sval == 1:
+        l = open('Files/c1.txt')
+        stemp = [line.strip() for line in open('Files/c1.txt')]
+        l.close()
+        sloc = 'Files/s' + str(snum) + '.txt'
+        m = open(sloc, 'w')
+        m.write(str(stemp[0]) + '\n')
+        m.write(str(stemp[1]) + '\n')
+        m.write(str(stemp[2]) + '\n')
+        m.close()
+    if sval == 2:
+        l = open('Files/c2.txt')
+        stemp = [line.strip() for line in open('Files/c2.txt')]
+        l.close()
+        sloc = 'Files/s' + str(snum) + '.txt'
+        m = open(sloc, 'w')
+        m.write(str(stemp[0]) + '\n')
+        m.write(str(stemp[1]) + '\n')
+        m.write(str(stemp[2]) + '\n')
+        m.close()
+    if sval == 3:
+        l = open('Files/c3.txt')
+        stemp = [line.strip() for line in open('Files/c3.txt')]
+        l.close()
+        sloc = 'Files/s' + str(snum) + '.txt'
+        m = open(sloc, 'w')
+        m.write(str(stemp[0]) + '\n')
+        m.write(str(stemp[1]) + '\n')
+        m.write(str(stemp[2]) + '\n')
+        m.close()
+    if sval == 4:
+        l = open('Files/c4.txt')
+        stemp = [line.strip() for line in open('Files/c4.txt')]
+        l.close()
+        sloc = 'Files/s' + str(snum) + '.txt'
+        m = open(sloc, 'w')
+        m.write(str(stemp[0]) + '\n')
+        m.write(str(stemp[1]) + '\n')
+        m.write(str(stemp[2]) + '\n')
+        m.close()
+    if sval == 5:
+        l = open('Files/c5.txt')
+        stemp = [line.strip() for line in open('Files/c5.txt')]
+        l.close()
+        sloc = 'Files/s' + str(snum) + '.txt'
+        m = open(sloc, 'w')
+        m.write(str(stemp[0]) + '\n')
+        m.write(str(stemp[1]) + '\n')
+        m.write(str(stemp[2]) + '\n')
+        m.close()
+    if sval == 6:
+        l = open('Files/c6.txt')
+        stemp = [line.strip() for line in open('Files/c6.txt')]
+        l.close()
+        sloc = 'Files/s' + str(snum) + '.txt'
+        m = open(sloc, 'w')
+        m.write(str(stemp[0]) + '\n')
+        m.write(str(stemp[1]) + '\n')
+        m.write(str(stemp[2]) + '\n')
+        m.close()
+    if sval == 7:
+        l = open('Files/c7.txt')
+        stemp = [line.strip() for line in open('Files/c7.txt')]
+        l.close()
+        sloc = 'Files/s' + str(snum) + '.txt'
+        m = open(sloc, 'w')
+        m.write(str(stemp[0]) + '\n')
+        m.write(str(stemp[1]) + '\n')
+        m.write(str(stemp[2]) + '\n')
+        m.close()
+    if sval == 8:
+        l = open('Files/c8.txt')
+        stemp = [line.strip() for line in open('Files/c8.txt')]
+        l.close()
+        sloc = 'Files/s' + str(snum) + '.txt'
+        m = open(sloc, 'w')
+        m.write(str(stemp[0]) + '\n')
+        m.write(str(stemp[1]) + '\n')
+        m.write(str(stemp[2]) + '\n')
+        m.close()
+    if sval == 9:
+        l = open('Files/c9.txt')
+        stemp = [line.strip() for line in open('Files/c9.txt')]
+        l.close()
+        sloc = 'Files/s' + str(snum) + '.txt'
+        m = open(sloc, 'w')
+        m.write(str(stemp[0]) + '\n')
+        m.write(str(stemp[1]) + '\n')
+        m.write(str(stemp[2]) + '\n')
+        m.close()
+    if sval == 10:
+        l = open('Files/c10.txt')
+        stemp = [line.strip() for line in open('Files/c10.txt')]
+        l.close()
+        sloc = 'Files/s' + str(snum) + '.txt'
+        m = open(sloc, 'w')
+        m.write(str(stemp[0]) + '\n')
+        m.write(str(stemp[1]) + '\n')
+        m.write(str(stemp[2]) + '\n')
+        m.close()
+        
+schose(1)
+schose(2)
+schose(3)
+schose(4)
+schose(5)
+schose(6)
+schose(7)
+schose(8)
+schose(9)
+schose(10)
