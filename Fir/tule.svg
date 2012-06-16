@@ -10,14 +10,14 @@
 <!-- Region Setup -->
 <text x="1090" y="225" style="font-family:Ubuntu Light; font-size: 42pt; font-style:bold;fill:white;">Now Voting:</text>
  
-<image x="1012" y="287" width="452" height="452"
-     xlink:href="Images/Regions/Alsace.png" /> 
+<image x="1012" y="257" width="452" height="452"
+     xlink:href="Images/Regions/R1.png" /> 
 
 <image x="1170" y="750" width="139" height="85"
-     xlink:href="Images/Flags/Alsace.png" /> 
+     xlink:href="Images/Flags/R1.png" /> 
      
 <image x="1020" y="850" width="420" height="70"
-     xlink:href="Images/Names/Alsace.png" /> 
+     xlink:href="Images/Names/R1.png" /> 
 
 <!-- Voting Box -->
 <line x1="50"  y1="125" x2="50"   y2="940" style="stroke:#FFFFFF; stroke-width: 4.0"/>
@@ -25,15 +25,15 @@
 <line x1="50"  y1="940" x2="1000"   y2="940" style="stroke:#FFFFFF; stroke-width: 4.0"/>
 <line x1="1000"  y1="125" x2="1000"   y2="940" style="stroke:#FFFFFF; stroke-width: 4.0"/>
 <!-- Voting Dividers -->
-<line x1="50"  y1="206.5" x2="1000"   y2="206.5" style="stroke:#FFFFFF; stroke-width: 3.0"/>
-<line x1="50"  y1="288" x2="1000"   y2="288" style="stroke:#FFFFFF; stroke-width: 3.0"/>
-<line x1="50"  y1="369.5" x2="1000"   y2="369.5" style="stroke:#FFFFFF; stroke-width: 3.0"/>
-<line x1="50"  y1="451" x2="1000"   y2="451" style="stroke:#FFFFFF; stroke-width: 3.0"/>
-<line x1="50"  y1="532.5" x2="1000"   y2="532.5" style="stroke:#FFFFFF; stroke-width: 3.0"/>
-<line x1="50"  y1="614" x2="1000"   y2="614" style="stroke:#FFFFFF; stroke-width: 3.0"/>
-<line x1="50"  y1="695.5" x2="1000"   y2="695.5" style="stroke:#FFFFFF; stroke-width: 3.0"/>
-<line x1="50"  y1="777" x2="1000"   y2="777" style="stroke:#FFFFFF; stroke-width: 3.0"/>
-<line x1="50"  y1="858.5" x2="1000"   y2="858.5" style="stroke:#FFFFFF; stroke-width: 3.0"/>
+<line x1="50"  y1="206.5" x2="1000"   y2="206.5" style="stroke:#FFFFFF; stroke-width: 2.0"/>
+<line x1="50"  y1="288" x2="1000"   y2="288" style="stroke:#FFFFFF; stroke-width: 2.0"/>
+<line x1="50"  y1="369.5" x2="1000"   y2="369.5" style="stroke:#FFFFFF; stroke-width: 2.0"/>
+<line x1="50"  y1="451" x2="1000"   y2="451" style="stroke:#FFFFFF; stroke-width: 2.0"/>
+<line x1="50"  y1="532.5" x2="1000"   y2="532.5" style="stroke:#FFFFFF; stroke-width: 2.0"/>
+<line x1="50"  y1="614" x2="1000"   y2="614" style="stroke:#FFFFFF; stroke-width: 2.0"/>
+<line x1="50"  y1="695.5" x2="1000"   y2="695.5" style="stroke:#FFFFFF; stroke-width: 2.0"/>
+<line x1="50"  y1="777" x2="1000"   y2="777" style="stroke:#FFFFFF; stroke-width: 2.0"/>
+<line x1="50"  y1="858.5" x2="1000"   y2="858.5" style="stroke:#FFFFFF; stroke-width: 2.0"/>
 
 <!-- Region Box -->
 <line x1="1015"  y1="125" x2="1015"   y2="940" style="stroke:#FFFFFF; stroke-width: 4.0"/>
@@ -100,4 +100,25 @@
 <image x="820" y="879.5" width="60" height="60"
      xlink:href="Images/Points/point1.png" /> 
 
+<!-- Songs -->
+<image x="125" y="130" width="675" height="70"
+     xlink:href="Images/Songs/s1.png" /> 
+<image x="125" y="211.5" width="675" height="70"
+     xlink:href="Images/Songs/s2.png" />
+<image x="125" y="293" width="675" height="70"
+     xlink:href="Images/Songs/s3.png" />
+<image x="125" y="374.5" width="675" height="70"
+     xlink:href="Images/Songs/s3.png" />
+<image x="125" y="456" width="675" height="70"
+     xlink:href="Images/Songs/s3.png" />
+<image x="125" y="537.5" width="675" height="70"
+     xlink:href="Images/Songs/s3.png" />
+<image x="125" y="619" width="675" height="70"
+     xlink:href="Images/Songs/s3.png" />
+<image x="125" y="700.5" width="675" height="70"
+     xlink:href="Images/Songs/s3.png" />
+<image x="125" y="782" width="675" height="70"
+     xlink:href="Images/Songs/s3.png" />
+<image x="125" y="863.5" width="675" height="70"
+     xlink:href="Images/Songs/s3.png" />
  </svg>
