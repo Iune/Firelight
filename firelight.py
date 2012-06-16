@@ -1,3 +1,5 @@
+import os
+
 a = open('Files/c1.txt')
 c1 = [line.strip() for line in open('Files/c1.txt')]
 a.close()
@@ -161,6 +163,8 @@ def schose(snum):
         m.write(str(stemp[1]) + '\n')
         m.write(str(stemp[2]) + '\n')
         m.close()
+        cpcmd = 'cp Scoreboard/Images/Songs/c1.png Scoreboard/Images/Songs/s' + str(snum) + '.png'
+        os.system(cpcmd)
     if sval == 2:
         l = open('Files/c2.txt')
         stemp = [line.strip() for line in open('Files/c2.txt')]
@@ -171,6 +175,8 @@ def schose(snum):
         m.write(str(stemp[1]) + '\n')
         m.write(str(stemp[2]) + '\n')
         m.close()
+        cpcmd = 'cp Scoreboard/Images/Songs/c2.png Scoreboard/Images/Songs/s' + str(snum) + '.png'
+        os.system(cpcmd)
     if sval == 3:
         l = open('Files/c3.txt')
         stemp = [line.strip() for line in open('Files/c3.txt')]
@@ -181,6 +187,8 @@ def schose(snum):
         m.write(str(stemp[1]) + '\n')
         m.write(str(stemp[2]) + '\n')
         m.close()
+        cpcmd = 'cp Scoreboard/Images/Songs/c3.png Scoreboard/Images/Songs/s' + str(snum) + '.png'
+        os.system(cpcmd)
     if sval == 4:
         l = open('Files/c4.txt')
         stemp = [line.strip() for line in open('Files/c4.txt')]
@@ -191,6 +199,8 @@ def schose(snum):
         m.write(str(stemp[1]) + '\n')
         m.write(str(stemp[2]) + '\n')
         m.close()
+        cpcmd = 'cp Scoreboard/Images/Songs/c4.png Scoreboard/Images/Songs/s' + str(snum) + '.png'
+        os.system(cpcmd)
     if sval == 5:
         l = open('Files/c5.txt')
         stemp = [line.strip() for line in open('Files/c5.txt')]
@@ -201,6 +211,8 @@ def schose(snum):
         m.write(str(stemp[1]) + '\n')
         m.write(str(stemp[2]) + '\n')
         m.close()
+        cpcmd = 'cp Scoreboard/Images/Songs/c5.png Scoreboard/Images/Songs/s' + str(snum) + '.png'
+        os.system(cpcmd)
     if sval == 6:
         l = open('Files/c6.txt')
         stemp = [line.strip() for line in open('Files/c6.txt')]
@@ -211,6 +223,8 @@ def schose(snum):
         m.write(str(stemp[1]) + '\n')
         m.write(str(stemp[2]) + '\n')
         m.close()
+        cpcmd = 'cp Scoreboard/Images/Songs/c6.png Scoreboard/Images/Songs/s' + str(snum) + '.png'
+        os.system(cpcmd)
     if sval == 7:
         l = open('Files/c7.txt')
         stemp = [line.strip() for line in open('Files/c7.txt')]
@@ -221,6 +235,8 @@ def schose(snum):
         m.write(str(stemp[1]) + '\n')
         m.write(str(stemp[2]) + '\n')
         m.close()
+        cpcmd = 'cp Scoreboard/Images/Songs/c7.png Scoreboard/Images/Songs/s' + str(snum) + '.png'
+        os.system(cpcmd)
     if sval == 8:
         l = open('Files/c8.txt')
         stemp = [line.strip() for line in open('Files/c8.txt')]
@@ -231,6 +247,8 @@ def schose(snum):
         m.write(str(stemp[1]) + '\n')
         m.write(str(stemp[2]) + '\n')
         m.close()
+        cpcmd = 'cp Scoreboard/Images/Songs/c8.png Scoreboard/Images/Songs/s' + str(snum) + '.png'
+        os.system(cpcmd)
     if sval == 9:
         l = open('Files/c9.txt')
         stemp = [line.strip() for line in open('Files/c9.txt')]
@@ -241,6 +259,8 @@ def schose(snum):
         m.write(str(stemp[1]) + '\n')
         m.write(str(stemp[2]) + '\n')
         m.close()
+        cpcmd = 'cp Scoreboard/Images/Songs/c9.png Scoreboard/Images/Songs/s' + str(snum) + '.png'
+        os.system(cpcmd)
     if sval == 10:
         l = open('Files/c10.txt')
         stemp = [line.strip() for line in open('Files/c10.txt')]
@@ -251,6 +271,8 @@ def schose(snum):
         m.write(str(stemp[1]) + '\n')
         m.write(str(stemp[2]) + '\n')
         m.close()
+        cpcmd = 'cp Scoreboard/Images/Songs/c10.png Scoreboard/Images/Songs/s' + str(snum) + '.png'
+        os.system(cpcmd)
         
 schose(1)
 schose(2)
