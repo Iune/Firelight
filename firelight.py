@@ -284,3 +284,181 @@ schose(7)
 schose(8)
 schose(9)
 schose(10)
+
+a = open('Files/s1.txt')
+s1 = [line.strip() for line in open('Files/s1.txt')]
+a.close()
+
+a = open('Files/s2.txt')
+s2 = [line.strip() for line in open('Files/s2.txt')]
+a.close()
+
+a = open('Files/s3.txt')
+s3 = [line.strip() for line in open('Files/s3.txt')]
+a.close()
+
+a = open('Files/s4.txt')
+s4 = [line.strip() for line in open('Files/s4.txt')]
+a.close()
+
+a = open('Files/s5.txt')
+s5 = [line.strip() for line in open('Files/s5.txt')]
+a.close()
+
+a = open('Files/s6.txt')
+s6 = [line.strip() for line in open('Files/s6.txt')]
+a.close()
+
+a = open('Files/s7.txt')
+s7 = [line.strip() for line in open('Files/s7.txt')]
+a.close()
+
+a = open('Files/s8.txt')
+s8 = [line.strip() for line in open('Files/s8.txt')]
+a.close()
+
+a = open('Files/s9.txt')
+s9 = [line.strip() for line in open('Files/s9.txt')]
+a.close()
+
+a = open('Files/s10.txt')
+s10 = [line.strip() for line in open('Files/s10.txt')]
+a.close()
+
+
+
+print "Please enter the current region/jury number"
+regnum = raw_input()
+print "Please enter the total number of juries"
+regtotal = raw_input()
+
+regamt = float(regnum) / float(regtotal)
+linewdth = float(regamt) * 946
+
+n = open('Scoreboard/Scoreboard.svg', 'w')
+n.write("""
+<svg xmlns=\"http://www.w3.org/2000/svg\"
+    xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"1502\" height=\"1127\">
+ 
+<image x=\"0\" y=\"0\" width=\"1502\" height=\"1127\"
+     xlink:href=\"Images/Pattern.jpg\" /> 
+
+ <rect id=\"background\" x=\"30\" y=\"50\" width=\"1455\" height=\"1027\"
+  style=\"fill: black; fill-opacity: 0.75;\"/>
+  
+<!-- Region Setup -->
+<text x=\"1090\" y=\"225\" style=\"font-family:Ubuntu Light; font-size: 42pt; font-style:bold;fill:white;\">Now Voting:</text>
+ 
+<image x=\"1012\" y=\"257\" width=\"452\" height=\"452\"
+     xlink:href=\"Images/Regions/R""" + str(regnum) + """.png\" /> 
+
+<image x=\"1170\" y=\"750\" width=\"139\" height=\"85\"
+     xlink:href=\"Images/Flags/R""" + str(regnum) + """.png\" /> 
+     
+<image x=\"1020\" y=\"850\" width=\"420\" height=\"70\"
+     xlink:href=\"Images/Names/R""" + str(regnum) + """.png\" /> 
+
+<!-- Voting Box -->
+<line x1=\"50\"  y1=\"125\" x2=\"50\"   y2=\"940\" style=\"stroke:#FFFFFF; stroke-width: 4.0\"/>
+<line x1=\"50\"  y1=\"125\" x2=\"1000\"   y2=\"125\" style=\"stroke:#FFFFFF; stroke-width: 4.0\"/>
+<line x1=\"50\"  y1=\"940\" x2=\"1000\"   y2=\"940\" style=\"stroke:#FFFFFF; stroke-width: 4.0\"/>
+<line x1=\"1000\"  y1=\"125\" x2=\"1000\"   y2=\"940\" style=\"stroke:#FFFFFF; stroke-width: 4.0\"/>
+<!-- Voting Dividers -->
+<line x1=\"50\"  y1=\"206.5\" x2=\"1000\"   y2=\"206.5\" style=\"stroke:#FFFFFF; stroke-width: 2.0\"/>
+<line x1=\"50\"  y1=\"288\" x2=\"1000\"   y2=\"288\" style=\"stroke:#FFFFFF; stroke-width: 2.0\"/>
+<line x1=\"50\"  y1=\"369.5\" x2=\"1000\"   y2=\"369.5\" style=\"stroke:#FFFFFF; stroke-width: 2.0\"/>
+<line x1=\"50\"  y1=\"451\" x2=\"1000\"   y2=\"451\" style=\"stroke:#FFFFFF; stroke-width: 2.0\"/>
+<line x1=\"50\"  y1=\"532.5\" x2=\"1000\"   y2=\"532.5\" style=\"stroke:#FFFFFF; stroke-width: 2.0\"/>
+<line x1=\"50\"  y1=\"614\" x2=\"1000\"   y2=\"614\" style=\"stroke:#FFFFFF; stroke-width: 2.0\"/>
+<line x1=\"50\"  y1=\"695.5\" x2=\"1000\"   y2=\"695.5\" style=\"stroke:#FFFFFF; stroke-width: 2.0\"/>
+<line x1=\"50\"  y1=\"777\" x2=\"1000\"   y2=\"777\" style=\"stroke:#FFFFFF; stroke-width: 2.0\"/>
+<line x1=\"50\"  y1=\"858.5\" x2=\"1000\"   y2=\"858.5\" style=\"stroke:#FFFFFF; stroke-width: 2.0\"/>
+
+<!-- Region Box -->
+<line x1=\"1015\"  y1=\"125\" x2=\"1015\"   y2=\"940\" style=\"stroke:#FFFFFF; stroke-width: 4.0\"/>
+<line x1=\"1465\"  y1=\"125\" x2=\"1465\"   y2=\"940\" style=\"stroke:#FFFFFF; stroke-width: 4.0\"/>
+<line x1=\"1015\"  y1=\"940\" x2=\"1465\"   y2=\"940\" style=\"stroke:#FFFFFF; stroke-width: 4.0\"/>
+<line x1=\"1015\"  y1=\"125\" x2=\"1465\"   y2=\"125\" style=\"stroke:#FFFFFF; stroke-width: 4.0\"/>
+
+
+<!-- # Voters Box -->
+<line x1=\"50\"  y1=\"965\" x2=\"50\"   y2=\"1025\" style=\"stroke:#FFFFFF; stroke-width: 4.0\"/>
+<line x1=\"1000\"  y1=\"965\" x2=\"1000\"   y2=\"1025\" style=\"stroke:#FFFFFF; stroke-width: 4.0\"/>
+<line x1=\"50\"  y1=\"965\" x2=\"1000\"   y2=\"965\" style=\"stroke:#FFFFFF; stroke-width: 4.0\"/>
+<line x1=\"50\"  y1=\"1025\" x2=\"1000\"   y2=\"1025\" style=\"stroke:#FFFFFF; stroke-width: 4.0\"/>
+     
+<!-- Maximum Width is 946 -->
+<rect id=\"background\" x=\"52\" y=\"967\" width=\"""" + str(linewdth) + """\" height=\"56\"
+  style=\"fill: #0066CC; fill-opacity:1.0; stroke: white; stroke-width: 4.0\"/>
+  
+<text x=\"1030\" y=\"1005\" style=\"font-family:Ubuntu Light; font-size: 30pt; font-style:bold;fill:white;\">""" + str(regnum) + " of " + str(regtotal) + """ regions voting</text>
+
+<!-- Placings -->
+<text x=\"60\" y=\"185\" style=\"font-family:Ubuntu Light; font-size: 40pt; font-style:bold;fill:white;\">01</text>
+<text x=\"60\" y=\"266.5\" style=\"font-family:Ubuntu Light; font-size: 40pt; font-style:bold;fill:white;\">02</text>
+<text x=\"60\" y=\"348\" style=\"font-family:Ubuntu Light; font-size: 40pt; font-style:bold;fill:white;\">03</text>
+<text x=\"60\" y=\"429.5\" style=\"font-family:Ubuntu Light; font-size: 40pt; font-style:bold;fill:white;\">04</text>
+<text x=\"60\" y=\"511\" style=\"font-family:Ubuntu Light; font-size: 40pt; font-style:bold;fill:white;\">05</text>
+<text x=\"60\" y=\"592.5\" style=\"font-family:Ubuntu Light; font-size: 40pt; font-style:bold;fill:white;\">06</text>
+<text x=\"60\" y=\"674\" style=\"font-family:Ubuntu Light; font-size: 40pt; font-style:bold;fill:white;\">07</text>
+<text x=\"60\" y=\"755.5\" style=\"font-family:Ubuntu Light; font-size: 40pt; font-style:bold;fill:white;\">08</text>
+<text x=\"60\" y=\"837\" style=\"font-family:Ubuntu Light; font-size: 40pt; font-style:bold;fill:white;\">09</text>
+<text x=\"60\" y=\"918.5\" style=\"font-family:Ubuntu Light; font-size: 40pt; font-style:bold;fill:white;\">10</text>
+
+<!-- Points -->
+<text x=\"900\" y=\"185\" style=\"font-family:Ubuntu Light; font-size: 40pt; font-style:bold;fill:white;\">""" + str(s1[2]) + """</text>
+<text x=\"900\" y=\"266.5\" style=\"font-family:Ubuntu Light; font-size: 40pt; font-style:bold;fill:white;\">""" + str(s2[2]) + """</text>
+<text x=\"900\" y=\"348\" style=\"font-family:Ubuntu Light; font-size: 40pt; font-style:bold;fill:white;\">""" + str(s3[2]) + """</text>
+<text x=\"900\" y=\"429.5\" style=\"font-family:Ubuntu Light; font-size: 40pt; font-style:bold;fill:white;\">""" + str(s4[2]) + """</text>
+<text x=\"900\" y=\"511\" style=\"font-family:Ubuntu Light; font-size: 40pt; font-style:bold;fill:white;\">""" + str(s5[2]) + """</text>
+<text x=\"900\" y=\"592.5\" style=\"font-family:Ubuntu Light; font-size: 40pt; font-style:bold;fill:white;\">""" + str(s6[2]) + """</text>
+<text x=\"900\" y=\"674\" style=\"font-family:Ubuntu Light; font-size: 40pt; font-style:bold;fill:white;\">""" + str(s7[2]) + """</text>
+<text x=\"900\" y=\"755.5\" style=\"font-family:Ubuntu Light; font-size: 40pt; font-style:bold;fill:white;\">""" + str(s8[2]) + """</text>
+<text x=\"900\" y=\"837\" style=\"font-family:Ubuntu Light; font-size: 40pt; font-style:bold;fill:white;\">""" + str(s9[2]) + """</text>
+<text x=\"900\" y=\"918.5\" style=\"font-family:Ubuntu Light; font-size: 40pt; font-style:bold;fill:white;\">""" + str(s10[2]) + """</text>
+
+<!-- Given Points -->
+<image x=\"820\" y=\"145\" width=\"60\" height=\"60\"
+     xlink:href=\"Images/Points/point""" + str(s1[1]) + """.png\" /> 
+<image x=\"820\" y=\"227.5\" width=\"60\" height=\"60\"
+     xlink:href=\"Images/Points/point""" + str(s2[1]) + """.png\" /> 
+<image x=\"820\" y=\"309\" width=\"60\" height=\"60\"
+     xlink:href=\"Images/Points/point""" + str(s3[1]) + """.png\" /> 
+<image x=\"820\" y=\"390.5\" width=\"60\" height=\"60\"
+     xlink:href=\"Images/Points/point""" + str(s4[1]) + """.png\" /> 
+<image x=\"820\" y=\"472\" width=\"60\" height=\"60\"
+     xlink:href=\"Images/Points/point""" + str(s5[1]) + """.png\" /> 
+<image x=\"820\" y=\"553.5\" width=\"60\" height=\"60\"
+     xlink:href=\"Images/Points/point""" + str(s6[1]) + """.png\" /> 
+<image x=\"820\" y=\"635\" width=\"60\" height=\"60\"
+     xlink:href=\"Images/Points/point""" + str(s7[1]) + """.png\" /> 
+<image x=\"820\" y=\"716.5\" width=\"60\" height=\"60\"
+     xlink:href=\"Images/Points/point""" + str(s8[1]) + """.png\" /> 
+<image x=\"820\" y=\"798\" width=\"60\" height=\"60\"
+     xlink:href=\"Images/Points/point""" + str(s9[1]) + """.png\" /> 
+<image x=\"820\" y=\"879.5\" width=\"60\" height=\"60\"
+     xlink:href=\"Images/Points/point""" + str(s10[1]) + """.png\" /> 
+
+<!-- Songs -->
+<image x=\"125\" y=\"130\" width=\"675\" height=\"70\"
+     xlink:href=\"Images/Songs/s1.png\" /> 
+<image x=\"125\" y=\"211.5\" width=\"675\" height=\"70\"
+     xlink:href=\"Images/Songs/s2.png\" />
+<image x=\"125\" y=\"293\" width=\"675\" height=\"70\"
+     xlink:href=\"Images/Songs/s3.png\" />
+<image x=\"125\" y=\"374.5\" width=\"675\" height=\"70\"
+     xlink:href=\"Images/Songs/s4.png\" />
+<image x=\"125\" y=\"456\" width=\"675\" height=\"70\"
+     xlink:href=\"Images/Songs/s5.png\" />
+<image x=\"125\" y=\"537.5\" width=\"675\" height=\"70\"
+     xlink:href=\"Images/Songs/s6.png\" />
+<image x=\"125\" y=\"619\" width=\"675\" height=\"70\"
+     xlink:href=\"Images/Songs/s7.png\" />
+<image x=\"125\" y=\"700.5\" width=\"675\" height=\"70\"
+     xlink:href=\"Images/Songs/s8.png\" />
+<image x=\"125\" y=\"782\" width=\"675\" height=\"70\"
+     xlink:href=\"Images/Songs/s9.png\" />
+<image x=\"125\" y=\"863.5\" width=\"675\" height=\"70\"
+     xlink:href=\"Images/Songs/s10.png\" />
+ </svg>""")
+n.close()
