@@ -12,13 +12,13 @@
 <text x="1090" y="225" style="font-family:Ubuntu Light; font-size: 42pt; font-style:bold;fill:white;">Now Voting:</text>
  
 <image x="1012" y="257" width="452" height="452"
-     xlink:href="Images/Regions/R16.png" /> 
+     xlink:href="Images/Regions/R15.png" /> 
 
 <image x="1170" y="750" width="139" height="85"
-     xlink:href="Images/Flags/R16.png" /> 
+     xlink:href="Images/Flags/R15.png" /> 
      
 <image x="1020" y="850" width="420" height="70"
-     xlink:href="Images/Names/R16.png" /> 
+     xlink:href="Images/Names/R15.png" /> 
 
 <!-- Voting Box -->
 <line x1="50"  y1="125" x2="50"   y2="940" style="stroke:#FFFFFF; stroke-width: 4.0"/>
@@ -50,10 +50,10 @@
 <line x1="50"  y1="1025" x2="1000"   y2="1025" style="stroke:#FFFFFF; stroke-width: 4.0"/>
      
 <!-- Maximum Width is 946 -->
-<rect id="background" x="52" y="967" width="560.592592593" height="56"
+<rect id="background" x="52" y="967" width="525.555555556" height="56"
   style="fill: #FF9900; fill-opacity:1.0; stroke: white; stroke-width: 4.0"/>
   
-<text x="1030" y="1005" style="font-family:Ubuntu Light; font-size: 30pt; font-style:bold;fill:white;">16 of 27 regions voting</text>
+<text x="1030" y="1005" style="font-family:Ubuntu Light; font-size: 30pt; font-style:bold;fill:white;">15 of 27 regions voting</text>
 
 <!-- Placings -->
 <text x="60" y="185" style="font-family:Ubuntu Light; font-size: 40pt; font-style:bold;fill:white;">01</text>
@@ -68,38 +68,38 @@
 <text x="60" y="918.5" style="font-family:Ubuntu Light; font-size: 40pt; font-style:bold;fill:white;">10</text>
 
 <!-- Points -->
-<text x="900" y="185" style="font-family:Ubuntu Light; font-size: 40pt; font-style:bold;fill:white;">72</text>
+<text x="900" y="185" style="font-family:Ubuntu Light; font-size: 40pt; font-style:bold;fill:white;">48</text>
 <text x="900" y="266.5" style="font-family:Ubuntu Light; font-size: 40pt; font-style:bold;fill:white;">40</text>
 <text x="900" y="348" style="font-family:Ubuntu Light; font-size: 40pt; font-style:bold;fill:white;">21</text>
-<text x="900" y="429.5" style="font-family:Ubuntu Light; font-size: 40pt; font-style:bold;fill:white;">36</text>
-<text x="900" y="511" style="font-family:Ubuntu Light; font-size: 40pt; font-style:bold;fill:white;">40</text>
-<text x="900" y="592.5" style="font-family:Ubuntu Light; font-size: 40pt; font-style:bold;fill:white;">25</text>
-<text x="900" y="674" style="font-family:Ubuntu Light; font-size: 40pt; font-style:bold;fill:white;">10</text>
-<text x="900" y="755.5" style="font-family:Ubuntu Light; font-size: 40pt; font-style:bold;fill:white;">29</text>
-<text x="900" y="837" style="font-family:Ubuntu Light; font-size: 40pt; font-style:bold;fill:white;">50</text>
-<text x="900" y="918.5" style="font-family:Ubuntu Light; font-size: 40pt; font-style:bold;fill:white;">31</text>
+<text x="900" y="429.5" style="font-family:Ubuntu Light; font-size: 40pt; font-style:bold;fill:white;">22</text>
+<text x="900" y="511" style="font-family:Ubuntu Light; font-size: 40pt; font-style:bold;fill:white;">14</text>
+<text x="900" y="592.5" style="font-family:Ubuntu Light; font-size: 40pt; font-style:bold;fill:white;">9</text>
+<text x="900" y="674" style="font-family:Ubuntu Light; font-size: 40pt; font-style:bold;fill:white;">6</text>
+<text x="900" y="755.5" style="font-family:Ubuntu Light; font-size: 40pt; font-style:bold;fill:white;">7</text>
+<text x="900" y="837" style="font-family:Ubuntu Light; font-size: 40pt; font-style:bold;fill:white;">32</text>
+<text x="900" y="918.5" style="font-family:Ubuntu Light; font-size: 40pt; font-style:bold;fill:white;">29</text>
 
 <!-- Given Points -->
 <image x="820" y="145" width="60" height="60"
      xlink:href="Images/Points/point12.png" /> 
 <image x="820" y="227.5" width="60" height="60"
-     xlink:href="Images/Points/point0.png" /> 
-<image x="820" y="309" width="60" height="60"
-     xlink:href="Images/Points/point0.png" /> 
-<image x="820" y="390.5" width="60" height="60"
-     xlink:href="Images/Points/point0.png" /> 
-<image x="820" y="472" width="60" height="60"
      xlink:href="Images/Points/point10.png" /> 
-<image x="820" y="553.5" width="60" height="60"
+<image x="820" y="309" width="60" height="60"
+     xlink:href="Images/Points/point8.png" /> 
+<image x="820" y="390.5" width="60" height="60"
+     xlink:href="Images/Points/point6.png" /> 
+<image x="820" y="472" width="60" height="60"
      xlink:href="Images/Points/point4.png" /> 
+<image x="820" y="553.5" width="60" height="60"
+     xlink:href="Images/Points/point2.png" /> 
 <image x="820" y="635" width="60" height="60"
      xlink:href="Images/Points/point0.png" /> 
 <image x="820" y="716.5" width="60" height="60"
-     xlink:href="Images/Points/point8.png" /> 
+     xlink:href="Images/Points/point0.png" /> 
 <image x="820" y="798" width="60" height="60"
-     xlink:href="Images/Points/point6.png" /> 
+     xlink:href="Images/Points/point0.png" /> 
 <image x="820" y="879.5" width="60" height="60"
-     xlink:href="Images/Points/point2.png" /> 
+     xlink:href="Images/Points/point0.png" /> 
 
 <!-- Songs -->
 <image x="125" y="130" width="675" height="70"

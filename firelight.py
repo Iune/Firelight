@@ -462,3 +462,9 @@ n.write("""
      xlink:href=\"Images/Songs/s10.png\" />
  </svg>""")
 n.close()
+
+svgconvert = "for i in Scoreboard/Scoreboard.svg; do rsvg-convert -a $i -o `echo $i | sed -e 's/svg$/png/'`; done"
+os.system(svgconvert)
+oscpcmd = "mv Scoreboard/Scoreboard.png Scoreboard/Output/Scoreboard" + str(regnum) + ".png"
+os.system(oscpcmd)
+
