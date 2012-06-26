@@ -341,7 +341,7 @@ n.write("""
     xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"1502\" height=\"1127\">
  
 <image x=\"0\" y=\"0\" width=\"1502\" height=\"1127\"
-     xlink:href=\"Images/Pattern.jpg\" /> 
+     xlink:href=\"Images/background.jpg\" /> 
 
  <rect id=\"background\" x=\"30\" y=\"50\" width=\"1455\" height=\"1027\"
   style=\"fill: black; fill-opacity: 0.75;\"/>
@@ -389,7 +389,7 @@ n.write("""
      
 <!-- Maximum Width is 946 -->
 <rect id=\"background\" x=\"52\" y=\"967\" width=\"""" + str(linewdth) + """\" height=\"56\"
-  style=\"fill: #0066CC; fill-opacity:1.0; stroke: white; stroke-width: 4.0\"/>
+  style=\"fill: #FF9900; fill-opacity:1.0; stroke: white; stroke-width: 4.0\"/>
   
 <text x=\"1030\" y=\"1005\" style=\"font-family:Ubuntu Light; font-size: 30pt; font-style:bold;fill:white;\">""" + str(regnum) + " of " + str(regtotal) + """ regions voting</text>
 
